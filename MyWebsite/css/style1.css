@@ -1,0 +1,246 @@
+header{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    color:#ebe1e9;
+    background:linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    text-shadow: #bf24a8 3px 3px,#8a0a74 6px 6px;
+
+    padding-top: 5px;
+    padding-bottom: 2%;
+    border-radius: 20px;
+    width:75%;
+    margin-left: 10%;
+    
+}
+
+#nothing{
+    text-shadow:none;
+    color:rgb(10, 7, 7);
+}
+
+#sidebar{
+    text-align:center;
+    float:left;
+    width:20%;
+    background: linear-gradient(to bottom right, #33ccff 0%, #99ff99 100%);
+    border: #8a0a74 7px inset;
+    margin-top:25px;
+    padding-bottom:25px;
+    height:100%;
+    margin-left: 25px;
+}
+
+#sidebar h2{
+    color:#522828;
+    font-size:45px;
+    padding-top:0%;
+}
+
+#sidebar a{
+    text-align: center;
+    text-decoration: none;
+    color:linear-gradient(to bottom right, #ffff66 0%, #6666ff 100%);
+    font-size: large;
+    font-size:25px;
+    font-weight: 500;
+    display:block;
+    padding-bottom: 25px;
+    padding-top:5px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    width:90%;
+    background: linear-gradient(to bottom right, #ffff66 0%, #ff6600 100%);
+    border-radius: 50px;
+    transition:  border-radius 1s,width 1s,font-size 1s;
+    
+
+}
+
+#sidebar a:hover,#sidebar a:focus{
+    border-radius: 20px;
+    width:90%;
+}
+
+
+
+#content{
+    color:#ebe0df;
+    width: 70%;
+    float:right;
+   /* background-color: #332255; */
+   background: linear-gradient(to top left, #000066 16%, #ff00ff 100%);
+    float:right;
+    margin-top: 25px;
+    margin-left:40px;
+    margin-right:25px;
+    height:2100px;
+    border:#40E0D0 10px outset;
+}
+
+body{
+    background-color: #ffbc00;
+}
+
+#qualify{
+    align-items: center;
+    margin-left:20px;
+    border:#ffffff 5px dashed;
+}
+
+#graphicCard{
+    margin-left: 35px;
+    border:#40E0D0 5px solid;
+}
+
+#jojoAbilityChart{
+    float:right;
+    margin-right: 25px;
+    position:relative;
+    bottom:240px;
+}
+
+
+#clap{
+    position: relative;
+    bottom:350px;
+    left:550px;
+    width:30%;
+}
+
+#QuickQuestion{
+    height:300px;
+}
+
+#QuickQinput{
+    border:#11ab0f 10px solid;
+    outline:none;
+    width:150px;
+    transition: width 1s, border-radius 1s,background-color 1s;
+    background-color:#000000;
+
+}
+
+#QuickQinput:focus{
+    width:250px;
+    border-radius: 25px;
+    background-color:#7dbf7c;
+}
+
+.infoBox{
+    height:400px;
+    padding-left:20px;
+    padding-right:15px;
+}
+
+.infoBox h2{
+    font-size:50px;
+    text-shadow:#cc665e 3px 3px ;
+}
+
+#basicInfo{
+    height:450px;
+}
+
+#basicInfo ul{
+    font-size:25px;
+}
+
+#skillAcheivement ul{
+    font-size:25px;
+}
+
+
+#MemeCollection{
+    height:100px;
+    
+}
+
+#MemeCollection a{
+    text-decoration: none;
+    font-size:25px;
+    color:#ffffff;
+
+}
+
+#welcome{
+    font-size:30px;
+
+}
+
+#welcome h2{
+    color:linear-gradient(to bottom right, #ffffff 0%, #cc3399 100%);
+    text-shadow:#cc665e 3px 3px ;
+}
+
+#rainbowOP1{
+    border:#ebe1e9 solid 2px;
+}
+
+#fallGuysTopRight{
+    position:absolute;
+    top:5px;
+    right:0px;
+    width:15%;
+}
+
+#fallFlip{
+    display:none;
+    position:absolute;
+    left:130px;
+    top:5px;
+    width:15%;
+}
+
+#chris{
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:8%;
+    border:#b9a1b5 4px solid;
+}
+
+#cat{
+    position:fixed;
+    right:55px;
+    top:375px;
+    border:#ebe1e9 5px inset;
+    
+}
+
+#showCat{
+    background: linear-gradient(to left, #6699ff 16%, #00ff00 100%);;
+    font-size:40px;
+    width:15%;
+    float:left;
+    margin-top:25px;
+    margin-left:65px;
+    text-align:center;
+    border-radius:15px;
+    border:#99ff99 5px solid;
+    outline:none;
+}
+
+
+#footer{
+    clear:both;
+    font-size: 25px;
+    height:150px;
+    background: linear-gradient(to bottom right, #ffffff 0%, #cc3399 100%);
+    text-align: center;
+    position:relative;
+    top:35px;
+    padding-top: 1cm;
+    width:100%;
+    border-radius: 20px;
+}
+
+#footerL1{
+    font-size: 25px;
+}
+
+#endFood{
+    position:relative;
+    float:right;
+    bottom:125px;
+    right:30px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>假的简历1.0.0</title>
+    <link rel="icon" href="img/chopped.png" type="image/icon type">
+    <link rel="stylesheet" href="css/style1.css">
+    <script src="js/script1.js"></script>
+    <style>
+        body {
+          background-image: url("img/background.jpg");
+        }
+        </style>
+</head>
+
+<body>
+
+
+
+    <!--Header on top of the page-->
+    <header onmouseover="headerHover(this)" onmouseout="headerUnhover(this)" id="begnning">
+        <h1>Peter's Napping House</h1>
+        <div id="nothing" onmouseover="nothingStart()" onmouseout="nothingBack()">Nothing Down There</div>
+        <img id="fallGuysTopRight" src="img/fallGuysTopRight.png" alt="fall guys celebrate" width=25%>
+        <img id="fallFlip" src="img/fallguysTopRightFlipped.png" alt="dab flip" width=25%>
+        <img id="chris" src="img/chris.jpg" alt="chris looking at title" width=25%>
+    </header>
+    
+
+    <!--sidebars also make sure move along the screen-->
+    <div id="sidebar">
+        <h2>(っ◔◡◔)<br>𝕊𝕚𝕕𝕖𝕊𝕔𝕣𝕠𝕝𝕝 </h2>
+        
+        <a href="#basicInfo" title="basicInfo" onmouseover="sidebarHover(this)" onmouseout="sidebarUnhover(this)"><em> Basic Info</em></a> <br>
+        <a href="#skillAcheivement" title="skill/Acheivement" onmouseover="sidebarHover(this)" onmouseout="sidebarUnhover(this)"> <em>Skill / Acheivement</em></a> <br>
+        <a href="#MemeCollection" title="Meme Collection" onmouseover="sidebarHover(this)" onmouseout="sidebarUnhover(this)"><em> Meme Collection</em></a> <br>
+        <a href="#rainbwOutPlay" title="rainbwOutPlay" onmouseover="sidebarHover(this)" onmouseout="sidebarUnhover(this)"> <em> Rainbow Outplay</em></a> <br>
+
+    </div>
+
+    
+<!--The right big box containning major info-->
+    <div id="content">
+
+        <!--welcome Section-->
+        <div id="welcome" class="infoBox">
+            <h2>Hi! This is Peter. <strong>Welcome</strong> to my page which lead to nowhere.</h2>
+            <img width="100%" src="img/QuickQsplit1FORREAL.png" alt="border split">
+
+            <div id="QuickQuestion">
+            <p>Quick Question: Did Peter get hired (Y/N)</p>
+            <label for="QuickQ">Answer Here:</label>
+            <input id="QuickQinput" type="text" name="QuickQ">
+
+            <label for="sub"></label>
+            <input type="submit" name="sub" value="submit" onclick="QuickQsubmit()">
+            </div>
+
+            <img id="clap" src="img/clap.png" alt="hand clap clap" width=10%>
+           
+        </div>
+
+
+            <!--Basic info section-->
+        <div id="basicInfo" class="infoBox">
+            <h2>Oridinary Info About Me</h2>
+
+            <ul>
+                <li>Did not Grow Up in America</li>
+                <li>Male</li>
+                <li>Working on Six Packs</li>
+                <li>Gamer</li>
+                <li>Will never buy a good graphic card</li>
+                <li>Experimenting how to get fat</li>
+            </ul>
+            <img id="qualify" src="img/PeterQualify.jpg" alt="Qualify in-game scren" width=30%>
+            <img id="graphicCard" src="img/GraphicCard.JPG" alt="banned graphic card" width=20%>
+            <img id="jojoAbilityChart" src="img/jojoAbilityChart.png" alt="JOJO's Ability chart">
+
+        </div>
+
+        <!--skill/achievement section-->
+        <div id="skillAcheivement" class="infoBox">
+            <h2>What I Learned and Possible Forgotten</h2>
+            <ul>
+                <li>Coding: java, javascript, html, css, python</li>
+                <li>Survival: breath, biking, running, swimming</li>
+                <li>Works: Wendys for 2 days</li>
+                <li>Language: English, Chinese, Chinglish, Spanish(Si Senor)</li>
+                <li>Documents / Edit: Chinese Photoshop, video editor,all google serires(doc,sheets)</li>
+                <li>Goals: Get rich, Spread Positivity</li>
+            </ul>
+
+        </div>
+
+        <!--MeME sections suppose to transfer to another page-->
+        <div id="MemeCollection" class="infoBox">
+            <h2>Know the Culture, Know the Way </h2>
+
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO" title="meme" target="_blank">Click here to visit</a>
+        </div>
+
+        <!--rainbow outplay video-->
+        <div id="rainbwOutPlay" class="infoBox">
+            <h2>Enjoy my insane outplay</h2>
+            <video id="rainbowOP1" src="vid/rainbowOutPlay1.mp4" alt="rainow Outplay" width="700px" controls> NOICE</video>
+            
+        </div>
+    </div>
+
+    <!--show cats back-->
+    <div>
+    <button type="button" id="showCat" onclick="showCat()">
+        Click To Show Cat 
+        
+    </button>
+    </div>
+
+
+    <!--dancing cat bottom right like a ad-->
+    <div id="cat">
+        <img id="realCat" src="vid/catdancing.gif" alt="dancing cat" width:65% onclick="changeCatPosition(this)">
+    </div>
+
+
+    <footer id="footer">
+        <div id="footerL1">tinysheep007 * 5438 Gucci Ave, Runeterra, Demacia, 102851 * Main (123)-123-1234</div>
+        <br>
+        <a href="http://www.google.com" alt="who asked" title="who asked">Who asked</a>
+        <a href="#begnning" alt="back to the top of the site" title="Back To Top">Back To Top</a> 
+        <a href="https://www.reddit.com/r/FREE/" alt="free site" title="free site">Free Stuff.com</a>
+        <br><br>
+        This is Footer and THE END.
+        <img id="endFood" src="img/endFood.jpg" alt="people eating food" width=12.5%>
+    </footer>
+
+
+</body>
